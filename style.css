@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-head {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.section-food {
+    text-align: center;
+}
+
+.section-rec {
+
+    width: 200px;
+    margin-top: 10px;
+    display: inline-block;
+    border: 3px solid black;
+}
+
+.section-rec img {
+    width: 200px;
+    height: 200px;
+}
+
+.section-rec__btn {
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+
+    margin-top: 10px;
+    color: white;
+}
+
+.details {
+    display: inline-block;
+    text-align: center;
+}
+
+.btn {
+    background-color: yellow;
+    padding: 5px;
+    border:solid red 2px;
+    width: 300px;
+}
+.btn:hover{
+    background-color: green;
+
+}
+.section-rec__btn:hover{
+    background-color: greenyellow;
+    color: red;
+}
